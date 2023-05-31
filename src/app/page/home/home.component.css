@@ -1,0 +1,56 @@
+.homebox
+{
+    text-align: center;
+}
+
+.homebox h1
+{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.homebox span
+{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.homesocialbox
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.homesocialbox .social
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: 50px;
+}
+.homesocialbox .social:hover
+{
+    transform: scale(1.1);
+}
+.facebook
+{
+    background-image: url(../../../imagem/redesSociais/facebook.png);
+}
+.instagram
+{
+    background-image: url(../../../imagem/redesSociais/instagram.png);
+}
+.linkedin
+{
+    background-image: url(../../../imagem/redesSociais/linkedin.png);
+}
+.git
+{
+    background-image: url(../../../imagem/redesSociais/git.png);
+}

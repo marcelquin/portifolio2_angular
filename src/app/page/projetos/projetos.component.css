@@ -1,0 +1,55 @@
+
+.boxp
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxp-img
+{
+    border:1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    margin: 20px;
+}
+
+.boxp-img img
+{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 30%;
+    background-size: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.boxp-img a
+{
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30%;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.doceria
+{
+    background-image: url(../../../imagem/projetos/doceria.png);
+}
+.siteComercial
+{
+    background-image: url(../../../imagem/projetos/siteComercial.png);
+}
+.webCurriculo
+{
+    background-image: url(../../../imagem/projetos/webcurriculo.PNG);
+}
+.portifolio
+{
+    background-image: url(../../../imagem/projetos/portifolio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

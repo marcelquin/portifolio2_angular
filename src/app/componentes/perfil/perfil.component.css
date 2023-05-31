@@ -1,0 +1,8 @@
+.fotoPerfil
+{
+    background-size: cover;
+    background-image: url(../../../imagem/perfil.jpg);
+    width: 100%;
+    height: 500px;
+    border-radius: 30%;
+}

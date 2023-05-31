@@ -1,0 +1,14 @@
+<div class="homebox" *ngFor="let info of infoPessoal">
+    <h1>{{info.nome}}</h1>
+    <h1>{{info.idade}}</h1>
+    <span>{{info.email}}</span>
+    <span>({{info.prefone}}){{info.fonep1}}-{{info.fonep2}}</span>
+
+<div class="homesocialbox">
+    <a href="{{info.facebook}}"><div class="social facebook"></div></a>
+    <a href="{{info.instagram}}"><div class="social instagram"></div></a>
+    <a href="{{info.linkedin}}"><div class="social linkedin"></div></a>
+    <a href="{{info.git}}"><div class="social git"></div></a>
+</div>
+
+</div>

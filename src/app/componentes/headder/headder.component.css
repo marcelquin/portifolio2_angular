@@ -1,0 +1,28 @@
+nav
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 90px;
+    display: flex;
+}
+nav details, summary, a
+{
+    list-style: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: #394867;
+    margin: 20px;
+    text-decoration: none;
+}
+nav summary
+{
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+a:hover
+{
+    color: #9BA4B5;
+}

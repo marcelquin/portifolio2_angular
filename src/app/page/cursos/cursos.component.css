@@ -1,0 +1,36 @@
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloco
+{
+    width:300px;
+    height: 220px;
+    overflow: auto;
+    margin: 10PX;
+    text-align: center;
+    background-size: cover;
+    background-color: #9BA4B5;
+
+}
+
+.bloco h3
+{
+    font-size: 20px;
+    color: black;
+    line-height: 20PX;
+    text-shadow: 2px 2px #CBE4DE;
+}
+.bloco a
+{
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+    color: #212A3E;
+}
+.bloco a:hover
+{
+    color: #F1F6F9;
+    transform: scale(1.1);
+}

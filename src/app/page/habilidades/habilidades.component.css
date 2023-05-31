@@ -1,0 +1,47 @@
+.boxh
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.hbox
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    column-count:3;
+    column-gap: 10px;
+    margin: 30px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.html
+{
+    background-image: url(../../../imagem/habilidades/html.png);
+}
+.css
+{
+    background-image: url(../../../imagem/habilidades/css.png);
+}
+.java
+{
+    background-image: url(../../../imagem/habilidades/java.png);
+}
+.git
+{
+    background-image: url(../../../imagem/habilidades/gitrub.png);
+}
+.ps
+{
+    background-image: url(../../../imagem/habilidades/photoshop.png);
+}
+.react
+{
+    background-image: url(../../../imagem/habilidades/react.png);
+}
+.angular
+{
+    background-image: url(../../../imagem/habilidades/angular.png);   
+}
